@@ -1,8 +1,11 @@
 #include<stdio.h>
 /**
- * main - Entry point
+ * This is C programming Language
+ * I'm going to use  main  function only as an Entry point
  *
- * Return: Always 0 (Success)
+ * The program will always Return 0
+ * Use the function puts
+ * You are not allowed to use printf
  */
 int main(void)
 {
