@@ -1,6 +1,5 @@
-#!/bin/bash
 <include stdio.h>
-\*
+/*
 *I'm going to use main function only.
 *Program will return0
 *Program solved
@@ -9,6 +8,6 @@
 * This betty commenting style.
 */
 int main(void){
-	puts("\ "Programming is like building a multilingual puzzle");
+	puts("\"Programming is like building a multilingual puzzle\n");
 	return(0);
 }
