@@ -1,19 +1,12 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
-* main - verify the source code
-* print_alphabet - function for print_alphabet
-* print_alphabet - function for print_alphabet
-*
-* Return: Always 0.
+* print_alphabet - showing all alphabet in lowercase.
 */
 void print_alphabet(void)
 {
-char letter = 'a';
-while (letter <= 'z')
-{
+char letter;
+for (letter = 'a'; letter <= 'z'; letter++)
 _putchar(letter);
-letter++;
-}
 _putchar('\n');
-return (0);
 }
